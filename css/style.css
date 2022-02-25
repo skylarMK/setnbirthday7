@@ -132,7 +132,11 @@ header{
 /*menu end*/
 
 h1,.hidden{ display: none;}
-img{ display: block; width: 100%;}
+img{ 
+  display: block; 
+  width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+}
 .visualBox{
   position: relative;
   margin-top: 60px;
